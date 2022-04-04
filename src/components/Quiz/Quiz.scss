@@ -1,0 +1,21 @@
+.quiz {
+  .quiz-title {
+    min-height: 20vh;
+  }
+  .quiz-container {
+    border: 1px #000 solid;
+    min-height: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+  }
+  .answer-container {
+    margin-top: 5vh;
+  }
+  .info {
+    margin-top: 1vh;
+    display: flex;
+    justify-content: space-around;
+  }
+}

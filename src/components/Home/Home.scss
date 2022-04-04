@@ -1,0 +1,13 @@
+.home {
+  & > .text {
+    &:nth-child(2) {
+      margin-top: 21vh;
+    }
+    &:nth-child(3) {
+      margin-top: 15vh;
+    }
+  }
+  .btn {
+    margin-top: 20vh;
+  }
+}

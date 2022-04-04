@@ -1,0 +1,2 @@
+export const SET_USER_ANSWER = "SET_USER_ANSWER";
+export const RESET_USER_ANSWER = "RESET_USER_ANSWER";

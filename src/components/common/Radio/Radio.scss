@@ -1,0 +1,19 @@
+.radio-wrapper {
+  display: flex;
+  justify-content: center;
+
+  &.inline {
+    .radio-item {
+      margin-right: 10px;
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+
+  .radio-item {
+    label {
+      font-size: 20px;
+    }
+  }
+}
